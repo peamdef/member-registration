@@ -7,7 +7,6 @@ public class RegisterForm {
     private String email;
     private String name;
     private Integer salary;
-
     public RegisterForm() {
     }
 

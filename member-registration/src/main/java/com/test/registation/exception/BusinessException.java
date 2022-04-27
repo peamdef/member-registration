@@ -1,9 +1,11 @@
 package com.test.registation.exception;
 
 
+import com.test.registation.constant.BusinessCode;
+
 public class BusinessException extends RuntimeException {
     private static final long serialVersionUID = 1L;
-    public static final String ERROR_MSG = "Business Failed";
+
     private final String code;
     private final String description;
 
@@ -11,7 +13,11 @@ public class BusinessException extends RuntimeException {
         super(message);
         this.code = code;
         this.description = null;
-
+    }
+    public BusinessException(BusinessCode businessCode) {
+        super(businessCode.getMessage());
+        this.code = businessCode.getCode();
+        this.description = null;
     }
     public String getCode() {
         return code;
