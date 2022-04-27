@@ -5,29 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd078baa-5856-4c9e-9670-750a3d83886a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/ApplicationTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/ApplicationMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/ApplicationWebTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/RegistrationServiceMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/UserDetailsServiceImplMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/UserServiceMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/WalletServiceMockitoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mock-data/user-db-list.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/resources/mock-data/user-db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/postman/member registration.postman_collection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/postman/member-registration-environment.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/model/UserProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/WalletService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/WalletService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,6 +51,11 @@
     &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\PP\OneDrive\เดสก์ท็อป\Test\member-registration\member-registration\src\main\postman" />
+    </key>
+  </component>
   <component name="RunManager" selected="JUnit.WalletServiceMockitoTest">
     <configuration name="WalletServiceMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regitation" />

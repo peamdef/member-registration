@@ -1,0 +1,254 @@
+{
+	"info": {
+		"_postman_id": "fe1b1aac-aba4-4a09-a533-f71d0fc54d76",
+		"name": "member registration",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "wallet",
+			"item": [
+				{
+					"name": "top-up",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0ZXIiLCJqdGkiOiIyMDIyMDQyNzU2OTgiLCJpYXQiOjE2NTEwMjg4MTUsImV4cCI6MTY1MTAyODkwMn0.CARA7IjDrUaCGONmH6rXRQmW6a1oCsjKRpLvzo8Q8D4",
+									"type": "string"
+								}
+							]
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"referenceCode\" : \"202204275698\",\r\n    \"amount\" : 10000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/v1/wallet/top-up",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"v1",
+								"wallet",
+								"top-up"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get wallet",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{ACCESS_TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/v1/wallet/{{REFERENCE_CODE}}",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"v1",
+								"wallet",
+								"{{REFERENCE_CODE}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "auth",
+			"item": [
+				{
+					"name": "login",
+					"event": [
+						{
+							"listen": "test",
+							"script": {
+								"exec": [
+									"var jsonData = JSON.parse(responseBody);\r",
+									"pm.environment.set(\"ACCESS_TOKEN\", jsonData.data.tokenType + \" \" + jsonData.data.accessToken);"
+								],
+								"type": "text/javascript"
+							}
+						}
+					],
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"username\": \"tester\",\r\n    \"password\": \"123456789\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/login",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"auth": {
+							"type": "bearer"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"userName\": \"tester\",\r\n    \"password\": \"123456789\",\r\n    \"phoneNumber\" : \"0918035698\",\r\n    \"email\" : \"test@gmail.com\",\r\n    \"name\" : \"Peam\",\r\n    \"salary\" : 72000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/register",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "user",
+			"item": [
+				{
+					"name": "get user list",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{ACCESS_TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/v1/user/list",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"v1",
+								"user",
+								"list"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "update user",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{ACCESS_TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"referenceCode\": {{REFERENCE_CODE}},\r\n    \"name\": \"supreme\",\r\n    \"phoneNumber\": \"0999999992\",\r\n    \"salary\": 30000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{URL}}/v1/user/update",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"v1",
+								"user",
+								"update"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "get user by ref code",
+					"request": {
+						"auth": {
+							"type": "bearer",
+							"bearer": [
+								{
+									"key": "token",
+									"value": "{{ACCESS_TOKEN}}",
+									"type": "string"
+								}
+							]
+						},
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "{{URL}}/v1/user/{{REFERENCE_CODE}}",
+							"host": [
+								"{{URL}}"
+							],
+							"path": [
+								"v1",
+								"user",
+								"{{REFERENCE_CODE}}"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
