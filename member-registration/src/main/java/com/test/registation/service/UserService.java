@@ -29,6 +29,7 @@ public class UserService {
             if(!dbUser.isPresent()){
                 throw new BusinessException(RGTE1004);
             }else {
+                    userProfile.setReferenceCode(dbUser.get().getReferenceCode());
                     userProfile.setName(dbUser.get().getName());
                     userProfile.setEmail(dbUser.get().getEmail());
                     userProfile.setPhoneNumber(dbUser.get().getPhoneNumber());

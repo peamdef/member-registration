@@ -37,7 +37,7 @@ public class UserController {
     Logger logger = Logger.getLogger(UserController.class.getName());
 
     @GetMapping("/list")
-    public ResponseEntity<CommonResponse<List<UserProfile>>> postRegisterProfile() {
+    public ResponseEntity<CommonResponse<List<UserProfile>>> getUserList() {
         CommonResponse<List<UserProfile>> response;
         try{
             response = userService.getUserList();
@@ -67,7 +67,6 @@ public class UserController {
             HttpServletRequest request,
             @RequestBody UserProfile param
     ) {
-        logger.info(username);
         Optional<User> user = userRepository.findByReferenceCode(param.getReferenceCode());
         CommonResponse<User> response = null;
         try{

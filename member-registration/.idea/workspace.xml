@@ -5,38 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd078baa-5856-4c9e-9670-750a3d83886a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/WalletController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/TopUpParam.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/UserProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/WalletService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/ApplicationTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/ApplicationMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/ApplicationWebTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/RegistrationServiceMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/UserDetailsServiceImplMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/UserServiceMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/test/registation/service/WalletServiceMockitoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mock-data/user-db-list.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/mock-data/user-db.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtAuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtAuthTokenFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/BusinessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/BusinessCode.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/model/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/CommonResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserDetailsServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/UserPrinciple.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonResponseUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/constant/BusinessCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/constant/BusinessCode.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/CommonResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/model/CommonResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/repository/UserRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/UserProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/model/UserProfile.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserDetailsServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserPrinciple.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonResponseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonResponseUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/WalletService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/WalletService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,48 +62,102 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/PP/OneDrive/เดสก์ท็อป/Test/member-registration/member-registration",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/PP/OneDrive/เดสก์ท็อป/Test/member-registration/member-registration&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.RegistationSystemApplication">
-    <configuration name="RegistationSystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.test.registation.RegistationSystemApplication" />
+}</component>
+  <component name="RunManager" selected="JUnit.WalletServiceMockitoTest">
+    <configuration name="WalletServiceMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regitation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.registation.*" />
+          <option name="PATTERN" value="com.test.registation.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="com.test.registation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RegistationSystemApplicationTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="WalletServiceMockitoTest.getWalletByReferenceCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regitation" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.test.registation.*" />
+          <option name="PATTERN" value="com.test.registation.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.test.registation" />
-      <option name="MAIN_CLASS_NAME" value="com.test.registation.RegistationSystemApplicationTests" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="PACKAGE_NAME" value="com.test.registation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
+      <option name="METHOD_NAME" value="getWalletByReferenceCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletServiceMockitoTest.getWalletByReferenceCodeWithWLTE1001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regitation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.registation.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.registation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
+      <option name="METHOD_NAME" value="getWalletByReferenceCodeWithWLTE1001" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletServiceMockitoTest.topUpAmountInWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regitation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.registation.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.registation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
+      <option name="METHOD_NAME" value="topUpAmountInWallet" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WalletServiceMockitoTest.topUpAmountInWalletWithWLTE1001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="regitation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.registation.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.test.registation.service" />
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
+      <option name="METHOD_NAME" value="topUpAmountInWalletWithWLTE1001" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.RegistationSystemApplication" />
-        <item itemvalue="JUnit.RegistationSystemApplicationTests" />
+        <item itemvalue="JUnit.WalletServiceMockitoTest" />
+        <item itemvalue="JUnit.WalletServiceMockitoTest.getWalletByReferenceCodeWithWLTE1001" />
+        <item itemvalue="JUnit.WalletServiceMockitoTest.getWalletByReferenceCode" />
+        <item itemvalue="JUnit.WalletServiceMockitoTest.topUpAmountInWalletWithWLTE1001" />
+        <item itemvalue="JUnit.WalletServiceMockitoTest.topUpAmountInWallet" />
       </list>
     </recent_temporary>
   </component>

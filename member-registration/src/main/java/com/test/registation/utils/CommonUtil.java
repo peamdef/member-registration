@@ -1,5 +1,6 @@
 package com.test.registation.utils;
 
+import com.google.gson.Gson;
 import com.test.registation.exception.BusinessException;
 import static com.test.registation.constant.BusinessCode.RGTE1002;
 
@@ -14,5 +15,11 @@ public class CommonUtil {
         }else {
             throw new BusinessException(RGTE1002);
         }
+    }
+    public static <T> T fromJson(String json, Class<T> t) throws IllegalAccessException, InstantiationException {
+        if (json != null)
+            return new Gson().fromJson(json, t);
+        else
+            return t.newInstance();
     }
 }

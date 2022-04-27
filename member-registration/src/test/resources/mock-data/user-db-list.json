@@ -1,0 +1,22 @@
+[
+  {
+    "referenceCode" : "202204275697",
+    "email" : "test2@gmail.com",
+    "memberType" : "Gold",
+    "name" : "supreme",
+    "password" : "$2a$10$bcsu0p1PMrMKrIgwV\/\/W5uxbph9fDwGtDPLrhquZXvFHwQDEuMOBm",
+    "phoneNumber" : "0999999999",
+    "salary" : 30000,
+    "username" : "tester2"
+  },
+  {
+    "referenceCode" : "202204275698",
+    "email" : "test@gmail.com",
+    "memberType" : "Gold",
+    "name" : "supreme",
+    "password" : "$2a$10$COLng7OXh.lS8fQtkc4ILO2nJatT1r4VEcNHpDf5bD.DL6YRuedEO",
+    "phoneNumber" : "0999999999",
+    "salary" : 30000,
+    "username" : "tester"
+  }
+]

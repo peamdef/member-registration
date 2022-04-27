@@ -19,7 +19,8 @@ import java.util.Date;
 import java.util.List;
 import java.util.Optional;
 
-import static com.test.registation.constant.BusinessCode.*;
+import static com.test.registation.constant.BusinessCode.RGTE1001;
+import static com.test.registation.constant.BusinessCode.RGTE1003;
 
 @Service
 public class RegistrationService {
