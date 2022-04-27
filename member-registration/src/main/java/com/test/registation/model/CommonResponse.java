@@ -7,7 +7,11 @@ public class CommonResponse<T> {
 
     public CommonResponse() {
     }
-
+    public CommonResponse(String code, String message) {
+        this.code = code;
+        this.message = message;
+        this.data = null;
+    }
     public CommonResponse(String code, String message, T data) {
         this.code = code;
         this.message = message;

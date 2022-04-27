@@ -35,9 +35,8 @@ public class RegistrationController {
         try{
              response = registrationService.saveRegistrationData(param);
         }catch (BusinessException be){
-            CommonResponseUtil.createResponse(StatusCode.E0400,be);
             return ResponseEntity.badRequest()
-                    .body(CommonResponseUtil.createResponse(StatusCode.E0400,be.getCode() + ":" + be.getMessage()));
+                    .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
         }
         return ResponseEntity.ok(response);
     }

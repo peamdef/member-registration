@@ -1,6 +1,7 @@
 package com.test.registation.service;
 
 import com.test.registation.entity.User;
+import com.test.registation.model.UserPrinciple;
 import com.test.registation.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

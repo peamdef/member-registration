@@ -1,9 +1,14 @@
 package com.test.registation.constant;
 
 public enum BusinessCode {
+    RGTE1000("RGTE1000","Access denied"),
     RGTE1001("RGTE1001","Username already exist"),
     RGTE1002("RGTE1002","salary lower than 15000"),
     RGTE1003("RGTE1003","Wallet already exist"),
+    RGTE1004("RGTE1004","Not found in database"),
+    WLTE1001("WLTE1001","Wallet not found"),
+
+    USDB1000("USDB1000","Cannot connect database")
     ;
     private String code;
     private String message;

@@ -5,30 +5,38 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd078baa-5856-4c9e-9670-750a3d83886a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/BusinessCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/StatusCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/entity/Wallet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/CommonResponse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/repository/WalletRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonResponseUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/WalletController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/TopUpParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/UserProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/WalletService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtAuthTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtAuthTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/config/JwtProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/BusinessCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/constant/BusinessCode.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/RegistrationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/RegistrationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/exception/BusinessException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/exception/BusinessException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/model/RegisterForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/RegisterForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/model/CommonResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/CommonResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/repository/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/RegistrationService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserDetailsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserDetailsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/service/UserPrinciple.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/model/UserPrinciple.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/utils/CommonResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtAuthTokenFilter.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtProvider.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/config/JwtProvider.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/config/LoginForm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/constant/BusinessCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/constant/BusinessCode.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/RegistrationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/RegistrationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/exception/BusinessException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/exception/BusinessException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/exception/ResourceNotFound.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/RegisterForm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/model/RegisterForm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/RoleName.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/model/CommonResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/model/CommonResponse.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/repository/UserRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/repository/UserRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/RegistrationService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserDetailsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserDetailsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/service/UserPrinciple.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonResponseUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/utils/CommonResponseUtil.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,8 +47,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -67,7 +75,9 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/PP/OneDrive/เดสก์ท็อป/Test/member-registration/member-registration"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/PP/OneDrive/เดสก์ท็อป/Test/member-registration/member-registration",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
 }]]></component>
   <component name="RunManager" selected="Application.RegistationSystemApplication">

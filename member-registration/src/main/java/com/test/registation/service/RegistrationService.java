@@ -9,8 +9,8 @@ import com.test.registation.model.RegisterForm;
 import com.test.registation.repository.UserRepository;
 import com.test.registation.repository.WalletRepository;
 import com.test.registation.utils.CommonResponseUtil;
+import com.test.registation.utils.CommonUtil;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
@@ -27,7 +27,6 @@ public class RegistrationService {
     PasswordEncoder encoder;
     @Autowired
     UserRepository userRepository;
-
     @Autowired
     WalletRepository walletRepository;
     public CommonResponse<String> saveRegistrationData (RegisterForm param){
@@ -53,7 +52,7 @@ public class RegistrationService {
         user.setUsername(param.getUserName());
         user.setEmail(param.getEmail());
         user.setSalary(param.getSalary());
-        user.setMemberType(setMemberType(param.getSalary()));
+        user.setMemberType(CommonUtil.setMemberType(param.getSalary()));
         userRepository.save(user);
 
         createWallet(referenceCode);
@@ -61,17 +60,7 @@ public class RegistrationService {
         return CommonResponseUtil.createResponse(StatusCode.S0000,"Success");
     }
 
-    public String setMemberType(Integer salary){
-        if(salary > 50000){
-            return "Platinum";
-        } else if (salary<= 50000 && salary >= 30000) {
-            return "Gold";
-        } else if (salary<30000 && salary >= 15000) {
-            return "Silver";
-        }else {
-            throw new BusinessException(RGTE1002);
-        }
-    }
+
 
     public void createWallet (String referenceCode) {
         Optional<Wallet> wallet = walletRepository.findByReferenceCode(referenceCode);

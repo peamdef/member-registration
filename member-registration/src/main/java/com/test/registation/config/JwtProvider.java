@@ -1,6 +1,6 @@
 package com.test.registation.config;
 
-import com.test.registation.service.UserPrinciple;
+import com.test.registation.model.UserPrinciple;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.MalformedJwtException;
@@ -20,12 +20,12 @@ public class JwtProvider {
  
     private static final Logger logger = LoggerFactory.getLogger(JwtProvider.class);
  
-    @Value("${tnb.demo.jwtSecret}")
+    @Value("${auth.jwtSecret}")
     private String jwtSecret;
- 
-    @Value("${tnb.demo.jwtExpiration}")
+
+    @Value("${auth.jwtExpiration}")
     private int jwtExpiration;
- 
+
     public String generateJwtToken(Authentication authentication) {
  
         UserPrinciple userPrincipal = (UserPrinciple) authentication.getPrincipal();
