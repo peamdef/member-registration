@@ -16,7 +16,7 @@
 							"bearer": [
 								{
 									"key": "token",
-									"value": "Bearer eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0ZXIiLCJqdGkiOiIyMDIyMDQyNzU2OTgiLCJpYXQiOjE2NTEwMjg4MTUsImV4cCI6MTY1MTAyODkwMn0.CARA7IjDrUaCGONmH6rXRQmW6a1oCsjKRpLvzo8Q8D4",
+									"value": "{{ACCESS_TOKEN}}",
 									"type": "string"
 								}
 							]

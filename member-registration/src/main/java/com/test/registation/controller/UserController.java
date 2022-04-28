@@ -39,9 +39,9 @@ public class UserController {
     @GetMapping("/list")
     public ResponseEntity<CommonResponse<List<UserProfile>>> getUserList() {
         CommonResponse<List<UserProfile>> response;
-        try{
+        try {
             response = userService.getUserList();
-        }catch (BusinessException be){
+        } catch (BusinessException be) {
             return ResponseEntity.badRequest()
                     .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
         }
@@ -52,10 +52,20 @@ public class UserController {
     public ResponseEntity<CommonResponse<UserProfile>> getUserByReferenceCode(
             @PathVariable("reference-code") @NotEmpty String referenceCode
     ) {
+        Optional<User> user = userRepository.findByReferenceCode(referenceCode);
         CommonResponse<UserProfile> response;
-        try{
-            response = userService.getUserByReferenceCode(referenceCode);
-        }catch (BusinessException be){
+        try {
+            if (user.isPresent() && username.equals(user.get().getUsername())) {
+                try {
+                    response = userService.getUserByReferenceCode(referenceCode);
+                } catch (BusinessException be) {
+                    return ResponseEntity.badRequest()
+                            .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
+                }
+            } else {
+                throw new BusinessException(RGTE1000);
+            }
+        } catch (BusinessException be) {
             return ResponseEntity.badRequest()
                     .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
         }
@@ -69,22 +79,18 @@ public class UserController {
     ) {
         Optional<User> user = userRepository.findByReferenceCode(param.getReferenceCode());
         CommonResponse<User> response = null;
-        try{
-            if(user.isPresent()){
-            if(username.equals(user.get().getUsername())){
-                try{
+        try {
+            if (user.isPresent() && username.equals(user.get().getUsername())) {
+                try {
                     response = userService.updateUserProfile(param);
-                }catch (BusinessException be){
+                } catch (BusinessException be) {
                     return ResponseEntity.badRequest()
                             .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
                 }
-            }else {
+            } else {
                 throw new BusinessException(RGTE1000);
             }
-        }else {
-                throw new BusinessException(RGTE1000);
-        }
-        }catch (BusinessException be){
+        } catch (BusinessException be) {
             return ResponseEntity.badRequest()
                     .body(CommonResponseUtil.createResponse(be.getCode(), be.getMessage()));
         }

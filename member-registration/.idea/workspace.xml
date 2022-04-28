@@ -5,9 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fd078baa-5856-4c9e-9670-750a3d83886a" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/postman/member registration.postman_collection.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/postman/member-registration-environment.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/WalletController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/registation/controller/WalletController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/postman/member registration.postman_collection.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/postman/member registration.postman_collection.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/test/registation/controller/WalletController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/regitation-0.0.1-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/regitation-0.0.1-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.registation.RegistationSystemApplicationTests.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-com.test.registation.RegistationSystemApplicationTests.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.test.registation.RegistationSystemApplicationTests.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/com.test.registation.RegistationSystemApplicationTests.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +62,20 @@
       <recent name="C:\Users\PP\OneDrive\เดสก์ท็อป\Test\member-registration\member-registration\src\main\postman" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.WalletServiceMockitoTest">
+  <component name="RunManager" selected="Application.RegistationSystemApplication">
+    <configuration name="RegistationSystemApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.registation.RegistationSystemApplication" />
+      <module name="regitation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.registation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="WalletServiceMockitoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regitation" />
       <extension name="coverage">
@@ -104,22 +123,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WalletServiceMockitoTest.topUpAmountInWallet" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="regitation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.test.registation.service.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.test.registation.service" />
-      <option name="MAIN_CLASS_NAME" value="com.test.registation.service.WalletServiceMockitoTest" />
-      <option name="METHOD_NAME" value="topUpAmountInWallet" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WalletServiceMockitoTest.topUpAmountInWalletWithWLTE1001" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="regitation" />
       <extension name="coverage">
@@ -138,11 +141,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RegistationSystemApplication" />
         <item itemvalue="JUnit.WalletServiceMockitoTest" />
         <item itemvalue="JUnit.WalletServiceMockitoTest.getWalletByReferenceCodeWithWLTE1001" />
         <item itemvalue="JUnit.WalletServiceMockitoTest.getWalletByReferenceCode" />
         <item itemvalue="JUnit.WalletServiceMockitoTest.topUpAmountInWalletWithWLTE1001" />
-        <item itemvalue="JUnit.WalletServiceMockitoTest.topUpAmountInWallet" />
       </list>
     </recent_temporary>
   </component>
